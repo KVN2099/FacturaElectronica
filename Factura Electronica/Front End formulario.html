@@ -1,0 +1,431 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Formulario</title>
+
+    <!--CSS-->
+
+    <style type="text/css">
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+
+        body {
+            background: #0F0F0F;
+        }
+
+        input {
+            border: solid 1px #000;
+            
+            width: 130px;
+        }
+
+        .main{
+            display: flex;
+            flex-wrap:wrap;
+            flex-direction: row;
+            justify-content:space-around;
+        }
+
+        .titulo {
+            width: 100%;
+            color: #fff;
+            background: rgb(255, 135, 0, .9);
+            border: solid 2px #fff
+        }
+
+        div {
+            color: #fff;
+            border: solid 2px #FF8700;
+            margin: 20px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .principal {
+            margin: 20px;
+            padding:20px;
+            background: rgb(0,0,0,.5);
+            width: 230px;
+            line-height:40px;
+        }
+
+        hr {
+            margin-top: 30px;
+            background: #FF8700;
+        }
+        </style>
+</head>
+<body>
+    <section class="main">   
+          
+            <div class="titulo"><h2>Factura Digital</h2></div> 
+            <div class="principal">
+                <h4>Clave</h4>
+                <input type="text" id="clave" />
+            </div>
+
+            <hr><hr>
+
+            <div class="principal">
+                <h4>Numero Consecutivo</h4>
+                <input type="text" id="numeroconsecutivo" />
+            </div>
+        
+            <div class="principal">
+                <h4>Fecha de emision</h4>
+                <input type="text" id="fechadeemision" />
+             </div>
+
+             <hr><hr>
+
+             <div class="principal">
+                 <h4>Condicion de Venta</h4>
+                 <input type="text" id="condiciondeventa" />
+             </div>
+        
+             <div class="principal">
+                 <h4>Plazo de Credito</h4>
+                 <input type="text" id="plazodecredito" />
+             </div>
+       
+             <div class="principal">
+                  <h4>Medio de Pago</h4>
+                  <input type="text" id="medioddepago" />
+             </div>
+
+             <div class="titulo"><h2>Emisor</h2></div>
+             <div class="principal">
+                  <h4>Datos personales</h4>
+                  <p>Nombre</p>
+                  <input type="text" id="nombre" />
+                  <p>Nombre Comercial</p>
+                  <input type="text" id="numerocomercial" />
+                  <p>Correo Electronico</p>
+                  <input type="text" id="correoelectronico" />  
+              </div>
+
+              <hr>
+
+              <div class="principal">
+                  <h4>Ubicacion</h4>
+                  <p>Canton</p>
+                  <input type="text" id="canton" /><!--Canton-->
+                  <p>Distrito</p>
+                  <input type="text" id="distrito" /><!--Distrito-->
+                  <p>Barrio</p>
+                  <input type="text" id="barrio" /><!--Barrio-->
+                  <p>Otras Senas</p>
+                  <input type="text" id="otrasenas" /><!--Otras_Senas-->
+                  <p>Provincia</p>
+                  <input type="text" id="provincia" /><!--provincia-->
+              </div>
+
+              <hr>
+
+              <div class="principal">
+                  <h4>Telefono</h4>
+                  <p>Codigo Pais</p>
+                  <input type="text" id="codigopais" />
+                  <p>Numero de Telefono</p>
+                  <input type="text" id="numerodetelefono" />
+                  <hr>
+                  <h4>Fax</h4>
+                  <p>Codigo Pais</p>
+                  <input type="text" id="codigopais" />
+                  <p>Numero de Telefono</p>
+                  <input type="text" id="numerodetelefono" />
+              </div>
+        
+              <div class="titulo"><h2>Receptor</h2></div>
+              <div class="principal">
+                  <h4>Datos personales</h4>
+                  <p>Nombre</p>
+                  <input type="text" id="nombrere" />
+                  <p>Nombre Comercial</p>
+                  <input type="text" id="nombrecomercialre" />
+                  <p>Correo Electronico</p>
+                  <input type="text" id="correoelectronicore" />
+                  <p>Identificacion Extranjera</p>
+                  <input type="text" id="identificacionextranjera" />
+              </div>
+
+              <hr>
+
+              <div class="principal">
+                  <h4>Ubicacion</h4>
+                  <p>Canton</p>
+                  <input type="text" id="canton" /><!--Canton-->
+                  <p>Distrito</p>
+                  <input type="text" id="distrito" /><!--Distrito-->
+                  <p>Barrio</p>
+                  <input type="text" id="barrio" /><!--Barrio-->
+                  <p>Otras Senas</p>
+                  <input type="text" id="otrasenas" /><!--Otras_Senas-->
+                  <p>Provincia</p>
+                  <input type="text" id="provincia" /><!--provincia-->
+              </div>
+
+              <hr>
+
+              <div class="principal">
+                  <h4>Telefono</h4>
+                  <p>Codigo Pais</p>
+                  <input type="text" id="codigopais" />
+                  <p>Numero de Telefono</p>
+                  <input type="text" id="numerodetelefono" />
+
+                  <hr>
+
+                  <h4>Fax</h4>
+                  <p>Codigo Pais</p>
+                  <input type="text" id="codigopais" />
+                  <p>Numero de Telefono</p>
+                  <input type="text" id="numerodetelefono" />
+              </div>
+   
+            
+              <div class="titulo"><h2>Detalle de Servicio</h2></div>
+              <div class="principal">
+                  <h4>Linea de Detalle</h4>
+                  <p>Numero de linea</p>
+                  <input type="text" id="numerodelinea" />
+                  <p>Cantidad</p>
+                  <input type="text" id="cantidad" />
+                  <p>Unidad de medida</p>
+                  <input type="text" id="unidaddemedida" />
+                  <p>Unidad Medida Comercial</p>
+                  <input type="text" id="unidadmedidacomercial" />
+                  <p>Detalle</p>
+                  <input type="text" id="detalle" />
+                  <p>Precio Unitario</p>
+                  <input type="text" id="preciounitario" />
+                  <p>Monto Total</p>
+                  <input type="text" id="montototal" />
+                  <p>Monto Descuento</p>
+                  <input type="text" id="montodescuento" />
+                  <p>Naturaleza Descuento</p>
+                  <input type="text" id="naturalezadescuento" />
+                  <p>Subtotal</p>
+                  <input type="text" id="subtotal" disabled />
+                  <p>Monto Total Linea</p>
+                  <input type="text" id="subtotal" />
+              </div>
+
+              <hr>
+
+              <div class="principal">
+                  <h4>Codigo</h4>
+                  <p>Tipo</p>
+                  <input type="text" id="tipo" />
+                  <p>Codigo</p>
+                  <input type="text" id="codigo" />          
+              </div>
+
+              <hr>
+
+              <div class="principal">
+                  <h4>Impuesto</h4>
+                  <p>Codigo</p>
+                  <input type="text" id="codigoim" />
+                  <p>Tarifa</p>
+                  <input type="text" id="tarifa" />
+                  <p>Monto</p>
+                  <input type="text" id="montoim" disabled/>
+
+                  <hr>
+
+                  <h4>Exoneracion</h4>
+                  <p>Tipo de Documento</p>
+                  <input type="text" id="tipodedocumento" />
+                  <p>Numero de Documento</p>
+                  <input type="text" id="numerodedocumento" />
+                  <p>Nombre de Institucion</p>
+                  <input type="text" id="nombredeinstitucion" />
+                  <p>Fecha de Emision</p>
+                  <input type="text" id="fechadeemision" />
+                  <p>Monto de Impuesto</p>
+                  <input type="text" id="montodeimpuesto" />
+                  <p>Porcentaje de Compra</p>
+                  <input type="text" id="porcentajedecompra" />
+              </div>
+
+              <div class="titulo"><h2>Resumen de Factura</h2></div>
+              <div class="principal">
+                  <p>Codigo de Moneda</p>
+                  <input type="text" id="codigodemoneda" />
+                  <p>Tipo de Cambio</p>
+                  <input type="text" id="tipodecambio" />
+                  <p>Total Servicios Gravados</p>
+                  <input type="text" id="totalserviciosgravados" />
+                  <p>Total Servicios Exentos</p>
+                  <input type="text" id="totalmercanciasgravadas" />
+              </div>
+
+              <hr>
+
+              <div class="principal">
+                  <p>Total Mercancias Gravadas</p>
+                  <input type="text" id="totalmercanciasgravadas" />
+                  <p>Total Mercancias Exentas</p>
+                  <input type="text" id="totalmercanciasgravadas" />
+                  <p>Total Gravado</p>
+                  <input type="text" id="totalgravado" />
+                  <p>Total Exento</p>
+                  <input type="text" id="totalexento" />
+                  <p>Total de Venta</p>
+                  <input type="text" id="totaldeventa" />
+              </div>
+
+              <hr>
+
+              <div class="principal">
+                  <p>Total de Descuento</p>
+                  <input type="text" id="totaldedescuento" />
+                  <p>Total Venta Neta</p>
+                  <input type="text" id="totalventaneta" />
+                  <p>Total Impuesto</p>
+                  <input type="text" id="totalimpuesto" />
+                  <p>Total Comprobante</p>
+                  <input type="text" id="totalcomprobante" />
+              </div>
+
+              <div class="titulo"><h2>Otros</h2></div>
+              <div class="principal">
+                  <h4>Informacion de Referencia</h4>
+                  <p>Tipo Doc</p>
+                  <input type="text" id="tipodoc" />
+                  <p>Numero</p>
+                  <input type="text" id="numero" />
+                  <p>Fecha de la Emision</p>
+                  <input type="text" id="fechadelaemision" />
+                  <p>Codigo</p>
+                  <input type="text" id="codigoin" />
+                  <p>Razon</p>
+                  <input type="text" id="razon" />
+              </div>
+
+              <hr>
+
+              <div class="principal">
+                  <h4>Normativa</h4>
+                  <p>Numero de Resolucion</p>
+                  <input type="text" id="numeroderesolucion" />
+                  <p>Fecha de Resolucion</p>
+                  <input type="text" id="fechaderesolucion" />
+               </div>
+
+              <hr>
+
+              <div class="principal">
+                  <h4>Otro Texto</h4>
+                  <p>Codigo</p>
+                  <input type="text" id="codigotex" />
+
+                  <hr>
+
+                  <h4>Otro Contenido</h4>
+                  <p>Codigo</p>
+                  <input type="text" id="codigocon" />
+              </div>
+    </section>
+
+    <!--JavaScript-->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script>
+        class _usuario {
+            constructor(NombreUsuario, Claveusuario)
+            {
+                this.NombreUsuario = NombreUsuario;
+                this.Claveusuario = Claveusuario;
+            }
+            Login()
+            {
+                $.ajax({
+                    url: 'api/Usuario',
+                    type: 'POST',
+                    dataType: 'json',
+                    data: this,
+                    success: function (data, textStatus, xhr) {
+                        //console.log(data);
+                        //alert(data);
+                        //localStorage.setItem("Usuarioensistema", data);
+                        //location.href = "Facturar.html";
+                        document.getElementById("token").innerHTML= data;
+                        this.token = data;
+                        return data;
+                    },
+                    error: function (xhr, textStatus, errorThrown) {
+                        console.log(data);
+                        alert(data);
+                    }
+                });
+            }
+        }
+        function Ingresar()
+        {
+            let usuariologueado= new _usuario(
+                document.getElementById("id").value, document.getElementById("clave").value
+            );
+            usuariologueado.Login();
+        }
+
+        //Variables////////////////////////////////////////////////////////////////////
+
+        var precio = 0, cantidad = 0;
+        var acumulado = 0;
+        var descuento = 0;
+        var tarifa = 0;
+        var acumulado2 = 0;
+        var exoneracion = 0;
+        var acumulado3 = 0;
+
+
+        //Subtotal/////////////////////////////////////////////////////////////////////
+
+        $("#preciounitario").keyup(function () {
+
+            precio = document.getElementById("preciounitario").value;
+            cantidad = document.getElementById("cantidad").value;
+            document.getElementById("subtotal").value = cantidad * precio;
+        });
+
+        $("#cantidad").keyup(function () {
+
+            precio = document.getElementById("preciounitario").value;
+            cantidad = document.getElementById("cantidad").value;
+            acumulado=document.getElementById("subtotal").value = cantidad * precio;
+        });
+
+        //Descuento/////////////////////////////////////////////////////////////////////
+
+        $("#montodescuento").keyup(function () {
+            precio = document.getElementById("preciounitario").value;
+            cantidad = document.getElementById("cantidad").value;
+            acumulado = document.getElementById("subtotal").value = cantidad * precio;
+            descuento = document.getElementById("montodescuento").value;
+            acumulado2= document.getElementById("subtotal").value = acumulado - descuento;
+        });
+
+        //Tarifa////////////////////////////////////////////////////////////////////////
+        $("#tarifa").keyup(function () {
+            precio = document.getElementById("preciounitario").value;
+            cantidad = document.getElementById("cantidad").value;
+            acumulado = document.getElementById("subtotal").value = cantidad * precio;
+            descuento = document.getElementById("montodescuento").value;
+            acumulado2 = document.getElementById("subtotal").value = acumulado - descuento;
+            tarifa = document.getElementById("tarifa").value;
+            acumulado3 = document.getElementById("montoim").value = (1 + (tarifa / 100)) * acumulado2;
+        });
+
+
+
+
+
+    </script>
+</body>
+</html>

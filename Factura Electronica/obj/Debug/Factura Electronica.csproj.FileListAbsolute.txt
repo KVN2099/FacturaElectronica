@@ -1,0 +1,68 @@
+E:\Info D\Info 11\Visual studio\Factura Electronica\Factura Electronica\obj\Debug\Factura Electronica.csprojResolveAssemblyReference.cache
+E:\Info D\Info 11\Visual studio\Factura Electronica\Factura Electronica\bin\Factura Electronica.dll.config
+E:\Info D\Info 11\Visual studio\Factura Electronica\Factura Electronica\bin\Factura Electronica.dll
+E:\Info D\Info 11\Visual studio\Factura Electronica\Factura Electronica\bin\Factura Electronica.pdb
+E:\Info D\Info 11\Visual studio\Factura Electronica\Factura Electronica\bin\Newtonsoft.Json.dll
+E:\Info D\Info 11\Visual studio\Factura Electronica\Factura Electronica\bin\System.Net.Http.Formatting.dll
+E:\Info D\Info 11\Visual studio\Factura Electronica\Factura Electronica\bin\System.Web.Http.dll
+E:\Info D\Info 11\Visual studio\Factura Electronica\Factura Electronica\bin\System.Web.Http.WebHost.dll
+E:\Info D\Info 11\Visual studio\Factura Electronica\Factura Electronica\bin\Newtonsoft.Json.xml
+E:\Info D\Info 11\Visual studio\Factura Electronica\Factura Electronica\bin\System.Net.Http.Formatting.xml
+E:\Info D\Info 11\Visual studio\Factura Electronica\Factura Electronica\bin\System.Web.Http.xml
+E:\Info D\Info 11\Visual studio\Factura Electronica\Factura Electronica\bin\System.Web.Http.WebHost.xml
+E:\Info D\Info 11\Visual studio\Factura Electronica\Factura Electronica\bin\es\System.Net.Http.Formatting.resources.dll
+E:\Info D\Info 11\Visual studio\Factura Electronica\Factura Electronica\bin\es\System.Web.Http.resources.dll
+E:\Info D\Info 11\Visual studio\Factura Electronica\Factura Electronica\bin\es\System.Web.Http.WebHost.resources.dll
+E:\Info D\Info 11\Visual studio\Factura Electronica\Factura Electronica\obj\Debug\Factura Electronica.dll
+E:\Info D\Info 11\Visual studio\Factura Electronica\Factura Electronica\obj\Debug\Factura Electronica.pdb
+E:\Factura Electronica\Factura Electronica\bin\Factura Electronica.dll.config
+E:\Factura Electronica\Factura Electronica\bin\Factura Electronica.dll
+E:\Factura Electronica\Factura Electronica\bin\Factura Electronica.pdb
+E:\Factura Electronica\Factura Electronica\bin\Newtonsoft.Json.dll
+E:\Factura Electronica\Factura Electronica\bin\System.Net.Http.Formatting.dll
+E:\Factura Electronica\Factura Electronica\bin\System.Web.Http.dll
+E:\Factura Electronica\Factura Electronica\bin\System.Web.Http.WebHost.dll
+E:\Factura Electronica\Factura Electronica\bin\Newtonsoft.Json.xml
+E:\Factura Electronica\Factura Electronica\bin\System.Net.Http.Formatting.xml
+E:\Factura Electronica\Factura Electronica\bin\System.Web.Http.xml
+E:\Factura Electronica\Factura Electronica\bin\System.Web.Http.WebHost.xml
+E:\Factura Electronica\Factura Electronica\bin\es\System.Net.Http.Formatting.resources.dll
+E:\Factura Electronica\Factura Electronica\bin\es\System.Web.Http.resources.dll
+E:\Factura Electronica\Factura Electronica\bin\es\System.Web.Http.WebHost.resources.dll
+E:\Factura Electronica\Factura Electronica\obj\Debug\Factura Electronica.csprojResolveAssemblyReference.cache
+E:\Factura Electronica\Factura Electronica\obj\Debug\Factura Electronica.dll
+E:\Factura Electronica\Factura Electronica\obj\Debug\Factura Electronica.pdb
+E:\Desarrollo V\Factura Electronica\Factura Electronica\bin\Factura Electronica.dll.config
+E:\Desarrollo V\Factura Electronica\Factura Electronica\bin\Factura Electronica.dll
+E:\Desarrollo V\Factura Electronica\Factura Electronica\bin\Factura Electronica.pdb
+E:\Desarrollo V\Factura Electronica\Factura Electronica\bin\Newtonsoft.Json.dll
+E:\Desarrollo V\Factura Electronica\Factura Electronica\bin\System.Net.Http.Formatting.dll
+E:\Desarrollo V\Factura Electronica\Factura Electronica\bin\System.Web.Http.dll
+E:\Desarrollo V\Factura Electronica\Factura Electronica\bin\System.Web.Http.WebHost.dll
+E:\Desarrollo V\Factura Electronica\Factura Electronica\bin\Newtonsoft.Json.xml
+E:\Desarrollo V\Factura Electronica\Factura Electronica\bin\System.Net.Http.Formatting.xml
+E:\Desarrollo V\Factura Electronica\Factura Electronica\bin\System.Web.Http.xml
+E:\Desarrollo V\Factura Electronica\Factura Electronica\bin\System.Web.Http.WebHost.xml
+E:\Desarrollo V\Factura Electronica\Factura Electronica\bin\es\System.Net.Http.Formatting.resources.dll
+E:\Desarrollo V\Factura Electronica\Factura Electronica\bin\es\System.Web.Http.resources.dll
+E:\Desarrollo V\Factura Electronica\Factura Electronica\bin\es\System.Web.Http.WebHost.resources.dll
+E:\Desarrollo V\Factura Electronica\Factura Electronica\obj\Debug\Factura Electronica.csprojResolveAssemblyReference.cache
+E:\Desarrollo V\Factura Electronica\Factura Electronica\obj\Debug\Factura Electronica.dll
+E:\Desarrollo V\Factura Electronica\Factura Electronica\obj\Debug\Factura Electronica.pdb
+E:\Desarrollo V\C#\Factura Electronica\Factura Electronica\bin\Factura Electronica.dll.config
+E:\Desarrollo V\C#\Factura Electronica\Factura Electronica\bin\Factura Electronica.dll
+E:\Desarrollo V\C#\Factura Electronica\Factura Electronica\bin\Factura Electronica.pdb
+E:\Desarrollo V\C#\Factura Electronica\Factura Electronica\bin\Newtonsoft.Json.dll
+E:\Desarrollo V\C#\Factura Electronica\Factura Electronica\bin\System.Net.Http.Formatting.dll
+E:\Desarrollo V\C#\Factura Electronica\Factura Electronica\bin\System.Web.Http.dll
+E:\Desarrollo V\C#\Factura Electronica\Factura Electronica\bin\System.Web.Http.WebHost.dll
+E:\Desarrollo V\C#\Factura Electronica\Factura Electronica\bin\Newtonsoft.Json.xml
+E:\Desarrollo V\C#\Factura Electronica\Factura Electronica\bin\System.Net.Http.Formatting.xml
+E:\Desarrollo V\C#\Factura Electronica\Factura Electronica\bin\System.Web.Http.xml
+E:\Desarrollo V\C#\Factura Electronica\Factura Electronica\bin\System.Web.Http.WebHost.xml
+E:\Desarrollo V\C#\Factura Electronica\Factura Electronica\bin\es\System.Net.Http.Formatting.resources.dll
+E:\Desarrollo V\C#\Factura Electronica\Factura Electronica\bin\es\System.Web.Http.resources.dll
+E:\Desarrollo V\C#\Factura Electronica\Factura Electronica\bin\es\System.Web.Http.WebHost.resources.dll
+E:\Desarrollo V\C#\Factura Electronica\Factura Electronica\obj\Debug\Factura Electronica.csprojResolveAssemblyReference.cache
+E:\Desarrollo V\C#\Factura Electronica\Factura Electronica\obj\Debug\Factura Electronica.dll
+E:\Desarrollo V\C#\Factura Electronica\Factura Electronica\obj\Debug\Factura Electronica.pdb
