@@ -7,6 +7,10 @@
     <!--CSS-->
 
     <style type="text/css">
+        select, option {
+            max-width: 150px;
+        }
+
         *{
             margin:0;
             padding:0;
@@ -196,7 +200,94 @@
                   <p>Cantidad</p>
                   <input type="text" id="cantidad" />
                   <p>Unidad de medida</p>
-                  <input type="text" id="unidaddemedida" />
+                  <select class="aweform" id="unidaddemedida" name="subject">
+                      <option value="Sp">Servicios Profesionales (Sp)</option>
+                      <option value="m">Metro (m)</option>
+                      <option value="kg">Kilogramo (kg)</option>
+                      <option value="s">Segundo (s)</option>
+                      <option value="A">Ampere (A)</option>
+                      <option value="K">Kelvin (K)</option>
+                      <option value="mol">Mol (mol)</option>
+                      <option value="cd">Candela (cd)</option>
+                      <option value="mcuadrado">Metro cuadrado (m²)</option>
+                      <option value="mcubico">Metro cúbico (m³)</option>
+                      <option value="mxs">Metro por segundo (m/s)</option>
+                      <option value="mxscuadrado">Metro por segundo cuadrado (m/s²)</option>
+                      <option value="unoxm">1 por metro (1/m)</option>
+                      <option value="kgxmcubico">Kilogramo por metro cúbico (kg/m³)</option>
+                      <option value="Axmcuadrado">Ampere por metro cuadrado (A/m²)</option>
+                      <option value="Axm">Ampere por metro (A/m)</option>
+                      <option value="molxmcubico">Mol por metro cúbico (mol/m³)</option>
+                      <option value="cdxmcuadrado">Candela por metro cuadrado (cd/m²)</option>
+                      <option value="indRefra">uno (indice de refracción)</option>
+                      <option value="rad">Radián (rad)</option>
+                      <option value="strad">Estereoraddián (sr)</option>
+                      <option value="Hz">Hertz (Hz)</option>
+                      <option value="N">Newton (N)</option>
+                      <option value="Pascal">Pascal (Pa)</option>
+                      <option value="J">Joule (J)</option>
+                      <option value="W">Watt (W)</option>
+                      <option value="C">Coulomb (C)</option>
+                      <option value="V">Volt (V)</option>
+                      <option value="F">Farad (F)</option>
+                      <option value="Ohm">Ohm (?)</option>
+                      <option value="S">Siemens (S)</option>
+                      <option value="Wb">Weber (Wb)</option>
+                      <option value="T">Tesla (T)</option>
+                      <option value="H">Henry (H)</option>
+                      <option value="GrCel">Graco Celsius (°C)</option>
+                      <option value="lm">Lumen (lm)</option>
+                      <option value="lx">Lux (lx)</option>
+                      <option value="Bq">Becquerel (Bq)</option>
+                      <option value="Gy">Grey (Gy)</option>
+                      <option value="kat">Katal (kat)</option>
+                      <option value="Paxs">Pascal por segundo (Pa·s)</option>
+                      <option value="Nxm">Newton metro (N·m)</option>
+                      <option value="Nxxm">Newton por metro (N/m)</option>
+                      <option value="radxs">Radián por segundo (rad/s)</option>
+                      <option value="radxscuadrado">Radián por segundo cuadrado (rad/s²)</option>
+                      <option value="Wxmcuadrado">Watt por metro cuadrado (W/m²)</option>
+                      <option value="JxK">Joule por Kelvin (J/K)</option>
+                      <option value="JxkgK">Joule por kilogramo kelvin (J/(kg·K))</option>
+                      <option value="Jxkg">Joule por kilogramo (J/kg)</option>
+                      <option value="Wxmxk">Watt por metro kelvin (W/(m·K))</option>
+                      <option value="Jxmcubi">Joule por metro cúbico (J/m³)</option>
+                      <option value="Vxm">Volt por metro (V/m)</option>
+                      <option value="Cxmcubi">Coulomb por metro cúbico (C/m³)</option>
+                      <option value="Cxmcubi">Coulomb por metro cuadrado (C/m²)</option>
+                      <option value="Fxm">Farad por metro (F/m)</option>
+                      <option value="Hxm">Henry por metro (H/m)</option>
+                      <option value="Jxmol">Joule por mol (J/mol)</option>
+                      <option value="JxmolK">Joule por mol kelvin (J/(mol·k))</option>
+                      <option value="Cxkg">Coulomb por kilogramo (C/kg)</option>
+                      <option value="Gyxs">Gray por segundo (Gy/s)</option>
+                      <option value="Wxsr">Watt por esterorradián (W/sr)</option>
+                      <option value="Wxmcusr">Watt por metro cuadrado estereorradián (W/(m²·sr))</option>
+                      <option value="katxmcub">Katal por metro cúbico (kat/m³)</option>
+                      <option value="min">Minuto (min)</option>
+                      <option value="h">Hora (h)</option>
+                      <option value="d">Día (d)</option>
+                      <option value="grado">Grado (º)</option>
+                      <option value="min1">Minuto (´)</option>
+                      <option value="s2">Segundo (´´)</option>
+                      <option value="L">Litro (L)</option>
+                      <option value="t">Tonelada (t)</option>
+                      <option value="Np">Neper (Np)</option>
+                      <option value="b">Bel (B)</option>
+                      <option value="eV">Electronvolt (eV)</option>
+                      <option value="u">Unidad de masa atómica unificada (u)</option>
+                      <option value="ua">Unidad astronómica (ua)</option>
+                      <option value="Unidad">Unidad (Unid)</option>
+                      <option value="Galon">Galón (Gal)</option>
+                      <option value="Gramo">Gramo (g)</option>
+                      <option value="Kilometro">Kilometro (km)</option>
+                      <option value="Pulgada">Pulgada (ln)</option>
+                      <option value="Centimetro">Centimetro (cm)</option>
+                      <option value="Mililitro">Mililitro (mL)</option>
+                      <option value="Milimetro">Milimetro (mm)</option>
+                      <option value="Onzas">Onzas (Oz)</option>
+                      <option value="Otros">Otros</option>
+                  </select>
                   <p>Unidad Medida Comercial</p>
                   <input type="text" id="unidadmedidacomercial" />
                   <p>Detalle</p>
@@ -204,7 +295,7 @@
                   <p>Precio Unitario</p>
                   <input type="text" id="preciounitario" />
                   <p>Monto Total</p>
-                  <input type="text" id="montototal" />
+                  <input type="text" id="montototal" disabled/>
                   <p>Monto Descuento</p>
                   <input type="text" id="montodescuento" />
                   <p>Naturaleza Descuento</p>
@@ -230,7 +321,22 @@
               <div class="principal">
                   <h4>Impuesto</h4>
                   <p>Codigo</p>
-                  <input type="text" id="codigoim" />
+                  <select id="codigoim">
+                      <option value="Impuesto_General_Sobre_Ventas">Impuesto General sobre las ventas</option>
+                      <option value="Impuesto_Selectivo_Consumo">Impuesto Selectivo de Consumo</option>
+                      <option value="Impuesto_Unico_Combustivos">Impuesto unico a los combustivos</option>
+                      <option value="Impuesto_Especifico_Bebidas_Alcoholicas">Impuesto especifico de bebidas alcohólicas</option>
+                      <option value="Impuesto_Especifico_Bebidas_Sin_Alcohol">Impuesto especifico sobre las bebidas envasadas sin contenido alcoholico y jabones de tocador</option>
+                      <option value="Impuesto_Productos_Tabaco">Impuesto a los productos de tabaco</option>
+                      <option value="Servicios">Servicios</option>
+                      <option value="Impuesto_General_Ventas_Diplomaticas">Impuesto General a las Ventas Diplomaticos</option>
+                      <option value="Impuesto_General_Ventas_Compras">Impuesto General sobre Ventas compras autorizadas</option>
+                      <option value="Impuesto_General_Ventas_Institucionales">Impuesto General sobre las ventas instituciones publicas y otros organismos</option>
+                      <option value="Impuesto_Selectivo_Consumo">Impuesto Selectivo de consumo compras autorizadas</option>
+                      <option value="Impuesto_Especifico_Cemento">Impuesto Especifico al Cemento</option>
+                      <option value="Otros">Otros</option>
+                      <option value="Otros">Otros</option>
+                  </select>
                   <p>Tarifa</p>
                   <input type="text" id="tarifa" />
                   <p>Monto</p>
@@ -240,7 +346,14 @@
 
                   <h4>Exoneracion</h4>
                   <p>Tipo de Documento</p>
-                  <input type="text" id="tipodedocumento" />
+                  <select id="tipodedocumento">
+                      <option value="Compras_Autorizadas">Compras Autorizadas</option>
+                      <option value="Ventas_Exentas_diplomaticos">Ventas Exentas a diplomaticos</option>
+                      <option value="Orden_Compra">Orden de compra (instituciones publicas y otros organismos)</option>
+                      <option value="Exenciones_Direccion_General">Exenciones Direccion General de Hacienda</option>
+                      <option value="Zonas_Francas">Zonas Francas</option>
+                      <option value="Otros">Otros</option>
+                  </select>
                   <p>Numero de Documento</p>
                   <input type="text" id="numerodedocumento" />
                   <p>Nombre de Institucion</p>
@@ -391,14 +504,14 @@
 
             precio = document.getElementById("preciounitario").value;
             cantidad = document.getElementById("cantidad").value;
-            document.getElementById("subtotal").value = cantidad * precio;
+            document.getElementById("montototal").value = cantidad * precio;
         });
 
         $("#cantidad").keyup(function () {
 
             precio = document.getElementById("preciounitario").value;
             cantidad = document.getElementById("cantidad").value;
-            acumulado=document.getElementById("subtotal").value = cantidad * precio;
+            acumulado=document.getElementById("montototal").value = cantidad * precio;
         });
 
         //Descuento/////////////////////////////////////////////////////////////////////
